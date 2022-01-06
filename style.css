@@ -1,0 +1,137 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size: 35px;
+}
+.yellow-colour{
+    color: rgba(235, 137, 10, 0.89) ;
+}
+section{
+    display: flex;
+}
+.boder{
+    padding-left: 5px;
+    border-left: 2px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    
+}
+.fastSec{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+.fastSec img{
+    width: 50%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange , tomato);
+    padding: 7px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#text{
+    text-align: center;
+}
+p{
+    font-size: 15px;
+}
+.secondsec{
+    width: 30%;
+    padding-left:4%;
+    border-radius: 15px;
+}
+.secondsec img{
+    width: 50%;
+    
+}
+.bColor1{
+    
+    background-color: rgb(235, 189, 133);
+    margin-left: 10%;
+}
+.bColor2{
+    background-color: skyblue;
+    margin-left: 2%;
+}
+.bColor3{
+    background-color: rgba(238, 64, 64, 0.514);
+    margin-left: 2%;
+    margin-right: 10%
+}
+
+.thirdsec{
+    padding-left: 5%;
+    padding-top: 4%;
+    display: flex;
+}
+.thirdsec-f{
+    width: 45%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 60px;
+}
+.thirdsec-s{
+    width: 50%;
+}
+.thirdsec-f img{
+    padding-left: 60px;
+    width: 75%;
+}
+.thirdsec-heading{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+
+}
+.thirdsec-s p{
+    padding-bottom:20px ;
+}
+
+
+.fourthSec{
+    padding-left: 5%;
+    padding-top: 4%;
+    display: flex;
+}
+.fourthSec-f{
+    width: 45%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-y: 260px;
+    background-position-x: 360px;
+    height: 450px;
+}
+.fourthSec-f img{
+    padding-left: 10%;
+    padding-top: 4%;
+    width: 65%;
+}
+.work-banner h1{
+    padding-top: 10%;
+    text-align: center;
+}
+.tierce-width{
+    width: 25%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.tierce-width img{
+    width: 100%;
+}
+
+.work-banner{
+    background-image: url("images/shapes/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    margin-bottom: -850px;
+}
+
+
+
